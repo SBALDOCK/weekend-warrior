@@ -92,8 +92,152 @@ http://musicovery.com/api/V6/artist.php?fct=getfromlocation
       latitude: 47.5513,
       conditionStatus: 'All Clear',
       conditionDetails: 'Dry',
-      conditionDate: '2020-06-16 21:21:35'
+      conditionDate: '2020-06-16 21:21:35' 
     },
+    
+  ## Example API Response - Camping
+  {
+    contacts: { phoneNumbers: [Array], emailAddresses: [Array] },
+    states: 'CA',
+    longitude: '-122.1326097',
+    activities: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    entranceFees: [ [Object] ],
+    directionsInfo: 'Please visit our main website for specific directions to our park. You may call the John Muir Visitor Center for additional information.',
+    entrancePasses: [ [Object] ],
+    directionsUrl: 'http://www.nps.gov/jomu/planyourvisit/directions.htm',
+    url: 'https://www.nps.gov/jomu/index.htm',
+    weatherInfo: 'The Mediterranean climate of Martinez features hot, dry summers with lower temperatures near 60º F and upper temperatures near 100º F. The heat gives way to cool, rainy winters with lows near 45º F and highs near 75º F. Fall and spring can bring rain and temperatures from 55-80º F.\n' +
+      '\n' +
+      'March to April: wet/dry, 60-80º F\n' +
+      'May to September: very dry, 60-100º+ F\n' +
+      'October to November: dry/wet, 55-80º F\n' +
+      'December to February: wet, 45-75º F',
+    name: 'John Muir',
+    operatingHours: [ [Object] ],
+    topics: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    latLong: 'lat:37.9828422, long:-122.1326097',
+    description: 'John Muir played many roles in his life, all of which helped him succeed in his role as an advocate for Nature. As America's most famous naturalist and conservationist, Muir fought to protect the wild places he loved, places we can still visit today. Muir's writings convinced the U.S. government to protect Yosemite, Sequoia, Grand Canyon and Mt. Rainier as national parks.',
+    images: [ [Object] ],
+    designation: 'National Historic Site',
+    parkCode: 'jomu',
+    addresses: [ [Object], [Object] ],
+    id: 'F339067B-A588-4BF3-9D90-1C1BA1249203',
+    fullName: 'John Muir National Historic Site',
+    latitude: '37.9828422'
+  },
+12:20
+Mtn biking:
+    {
+      id: 7017829,
+      name: 'Crown Zellerbach Trail',
+      type: 'Trail',
+      summary: 'A somewhat rough and rowdy rail-to-trail that starts in Scappoose and climbs towards Vernonia.',
+      difficulty: 'greenBlue',
+      stars: 3.5,
+      starVotes: 12,
+      location: 'Scappoose, Oregon',
+      url: 'https://www.mtbproject.com/trail/7017829/crown-zellerbach-trail',
+      imgSqSmall: 'https://cdn2.apstatic.com/photos/mtb/7033462_sqsmall_1570070165.jpg',
+      imgSmall: 'https://cdn2.apstatic.com/photos/mtb/7033462_small_1570070165.jpg',
+      imgSmallMed: 'https://cdn2.apstatic.com/photos/mtb/7033462_smallMed_1570070165.jpg',
+      imgMedium: 'https://cdn2.apstatic.com/photos/mtb/7033462_medium_1570070165.jpg',
+      length: 22.5,
+      ascent: 1827,
+      descent: -1199,
+      high: 1268,
+      low: 14,
+      longitude: -122.8409,
+      latitude: 45.7454,
+      conditionStatus: 'Unknown',
+      conditionDetails: null,
+      conditionDate: '1970-01-01 00:00:00'
+    }
+    
+  ## Example API Response - Mountain Biking
+    {
+      id: 7017829,
+      name: 'Crown Zellerbach Trail',
+      type: 'Trail',
+      summary: 'A somewhat rough and rowdy rail-to-trail that starts in Scappoose and climbs towards Vernonia.',
+      difficulty: 'greenBlue',
+      stars: 3.5,
+      starVotes: 12,
+      location: 'Scappoose, Oregon',
+      url: 'https://www.mtbproject.com/trail/7017829/crown-zellerbach-trail',
+      imgSqSmall: 'https://cdn2.apstatic.com/photos/mtb/7033462_sqsmall_1570070165.jpg',
+      imgSmall: 'https://cdn2.apstatic.com/photos/mtb/7033462_small_1570070165.jpg',
+      imgSmallMed: 'https://cdn2.apstatic.com/photos/mtb/7033462_smallMed_1570070165.jpg',
+      imgMedium: 'https://cdn2.apstatic.com/photos/mtb/7033462_medium_1570070165.jpg',
+      length: 22.5,
+      ascent: 1827,
+      descent: -1199,
+      high: 1268,
+      low: 14,
+      longitude: -122.8409,
+      latitude: 45.7454,
+      conditionStatus: 'Unknown',
+      conditionDetails: null,
+      conditionDate: '1970-01-01 00:00:00'
+    }
+  
+    
+   ## Example API Response - Rock Climbing
+       {
+      id: 109589293,
+      name: 'Webelo',
+      type: 'Sport',
+      rating: '5.12d',
+      stars: 4,
+      starVotes: 1,
+      pitches: '',
+      location: [Array],
+      url: 'https://www.mountainproject.com/route/109589293/webelo',
+      imgSqSmall: 'https://cdn2.apstatic.com/photos/climb/109589315_sqsmall_1494357378.jpg',
+      imgSmall: 'https://cdn2.apstatic.com/photos/climb/109589315_small_1494357378.jpg',
+      imgSmallMed: 'https://cdn2.apstatic.com/photos/climb/109589315_smallMed_1494357378.jpg',
+      imgMedium: 'https://cdn2.apstatic.com/photos/climb/109589315_medium_1494357378.jpg',
+      longitude: -122.2833,
+      latitude: 47.6768
+    },
+    
+  ## Example API Response - Brewery
+    {
+    id: 7405,
+    name: 'Cloudburst Brewing',
+    brewery_type: 'micro',
+    street: '2116 Western Ave',
+    city: 'Seattle',
+    state: 'Washington',
+    postal_code: '98121-2110',
+    country: 'United States',
+    longitude: '-122.3452717',
+    latitude: '47.6116138',
+    phone: '2066026061',
+    website_url: 'http://www.cloudburstbrew.com',
+    updated_at: '2018-08-24T16:33:34.739Z',
+    tag_list: []
+  },
+  
+## Example API Response - Music
+  {
+    mbid: '364e1151-40f0-476d-a437-8fc6427262e8',
+    name: 'Acceptance',
+    genre: 'rock',
+    country: 'USA',
+    continent: 'America',
+    region: 'Washington',
+    city: 'Seattle'
+  },
     
 ## Database Relationship Diagram
 SQL Tables - MVP
