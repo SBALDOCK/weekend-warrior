@@ -6,8 +6,8 @@
     <h5> <%= oneClimb.location %> </h5>
     <h5> <%= oneClimb.name %> </h5>
     <h5> <%= oneClimb.type %> </h5>
-    <h6> <%= oneClimb.pitches %> pitches</h6>
-    <h6> <%= oneClimb.stars %> stars</h6>
+    <h6> <%= oneClimb.pitches %> </h6>
+    <h6> <%= oneClimb.stars %> </h6>
   </section>
     <form action ="/favorites" method = "POST">
       <input type="hidden" name="table_name" value="climbing" />
@@ -29,3 +29,23 @@
 </div>
   <% }); %>
 
+<h4> Breweries </h4>
+<% console.log(brewery); %>
+<% brewery.forEach(oneBrew => { %>
+  <h5><%= oneBrew.name %></h5>
+  <h5><%= oneBrew.type %></h5>
+  <h5><%= oneBrew.website %></h5>
+
+  <form action ="/favorites.ejs" method = "POST" >
+    <input type="hidden" name="name" value="<%= oneBrew.name  %>"/> 
+    <input type="hidden" name="type" value="<%= oneBrew.type %>"/>
+    <input type="hidden" name="website" value="<%= oneBrew.website %>"/>
+    <button type = "submit"> Add to my favorites </button>
+  </form>
+<% }); %>
+
+<h4> Suggested Local Artists </h4>
+<% tunesResults.forEach(oneTune => { %>
+  <h5><%= oneTune.name %></h5>
+  <h5><%= oneTune.genre %></h5>
+<% }) %>
