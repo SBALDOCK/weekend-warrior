@@ -26,7 +26,7 @@ Backend utilizes superagent for API calls to googlebooks API and postgres to que
 
 ## Domain Model
 
-![Domain Model](diagrams/domain_model.png)
+![Domain Model](diagrams/IMG_0015.JPG)
 
 ## Libraries Used:
  - Express
